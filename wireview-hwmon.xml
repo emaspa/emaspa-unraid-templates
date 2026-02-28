@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Plugin>
+  <PluginURL>https://raw.githubusercontent.com/emaspa/wireview-hwmon-unraid/main/wireview-hwmon.plg</PluginURL>
+  <Name>WireView Pro II</Name>
+  <PluginAuthor>emaspa</PluginAuthor>
+  <Description>
+    Thermal Grizzly WireView Pro II GPU power monitor integration for Unraid.[br][br]
+    Exposes real-time voltage, current, power, and temperature readings through the Linux hwmon subsystem with a live dashboard tile.[br][br]
+    Features:[br]
+    - Dashboard tile with auto-refreshing sensor readings (voltage, current, power, temperature)[br]
+    - Full device configuration page under Settings[br]
+    - Fault monitoring with Unraid notifications[br]
+    - CLI tool (wireviewctl) for advanced usage[br][br]
+    Requires a Thermal Grizzly WireView Pro II connected via USB directly to the Unraid host (not passed through to a VM).[br]
+    Requires Unraid 7.0.0 or later.
+  </Description>
+  <Category>Drivers: Tools:System</Category>
+  <Support>https://github.com/emaspa/wireview-hwmon-unraid/issues</Support>
+  <Icon>https://raw.githubusercontent.com/emaspa/wireview-hwmon-unraid/main/icon.png</Icon>
+  <MinVer>7.0.0</MinVer>
+</Plugin>
