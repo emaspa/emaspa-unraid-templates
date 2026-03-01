@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Plugin>
+  <PluginURL>https://raw.githubusercontent.com/emaspa/unraidclaw/main/packages/unraid-plugin/unraidclaw.plg</PluginURL>
+  <Name>UnraidClaw</Name>
+  <PluginAuthor>emaspa</PluginAuthor>
+  <Description>
+    AI Agent Gateway for Unraid — permission-enforcing REST API that lets AI agents manage your server.[br][br]
+    Proxies requests to Unraid's built-in APIs with fine-grained access control for Docker, VMs, Array, Shares, System, Notifications, Network, and Logs.[br][br]
+    Features:[br]
+    - 39 tools across 10 categories (Docker, VMs, Array, Shares, System, etc.)[br]
+    - Full resource:action permission matrix configurable from WebGUI[br]
+    - HTTPS with auto-generated TLS certificate[br]
+    - SHA-256 API key authentication[br]
+    - Activity logging with filter and search[br]
+    - OpenClaw plugin available on npm (openclaw plugins install unraidclaw)[br][br]
+    Requires Unraid 7.0.0 or later (Node.js 22+ built-in).
+  </Description>
+  <Category>Tools:System Productivity:Network Services</Category>
+  <Support>https://github.com/emaspa/unraidclaw/issues</Support>
+  <Icon>https://raw.githubusercontent.com/emaspa/unraidclaw/main/packages/unraid-plugin/src/usr/local/emhttp/plugins/unraidclaw/unraidclaw.png</Icon>
+  <MinVer>7.0.0</MinVer>
+</Plugin>
