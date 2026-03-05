@@ -15,7 +15,7 @@
     Requires Unraid 7.0.0 or later.
   </Description>
   <Category>Drivers: Tools:System</Category>
-  <Support>https://github.com/emaspa/wireview-hwmon-unraid/issues</Support>
+  <Support>https://forums.unraid.net/topic/197481-plugin-support-wireview-pro-ii-gpu-power-monitor-wireview-hwmon/</Support>
   <Icon>https://raw.githubusercontent.com/emaspa/wireview-hwmon-unraid/main/icon.png</Icon>
   <MinVer>7.0.0</MinVer>
 </Plugin>
