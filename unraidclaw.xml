@@ -15,7 +15,7 @@
     - OpenClaw plugin available on npm (openclaw plugins install unraidclaw)[br][br]
     Requires Unraid 7.0.0 or later (Node.js 22+ built-in).
   </Description>
-  <Category>Tools:System</Category>
+  <Category>Productivity Tools:System</Category>
   <Support>https://forums.unraid.net/topic/197498-plugin-support-unraidclaw-ai-agent-gateway-with-permission-control/</Support>
   <Icon>https://raw.githubusercontent.com/emaspa/unraidclaw/main/packages/unraid-plugin/src/usr/local/emhttp/plugins/unraidclaw/unraidclaw.png</Icon>
   <MinVer>7.0.0</MinVer>
