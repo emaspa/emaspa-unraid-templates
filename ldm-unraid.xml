@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Plugin>
+  <PluginURL>https://raw.githubusercontent.com/emaspa/ldm-unraid/main/ldm-unraid.plg</PluginURL>
+  <Name>Windows Dynamic Disks</Name>
+  <PluginAuthor>emaspa</PluginAuthor>
+  <Description>
+    Read Windows dynamic disks (LDM) on Unraid: the simple, spanned, striped and mirrored volumes Windows builds across several disks, which Unassigned Devices can't mount.[br][br]
+    Features:[br]
+    - Finds dynamic disks on its own and shows each volume on the Main page, under Unassigned Devices[br]
+    - Simple, spanned and striped volumes on MBR or GPT disks; mirrored volumes read from one copy, even with a disk missing[br]
+    - Mounts under /mnt/disks, read-only by default; read-write on request[br]
+    - Optional SMB share per volume, public or per user[br]
+    - ldmctl command-line tool[br][br]
+    RAID-5 volumes are not supported (Unraid's kernel has no dm-raid). ReFS can't be read on Linux.[br]
+    Requires Unraid 7.0.0 or later.
+  </Description>
+  <Category>Tools:System</Category>
+  <Support>https://github.com/emaspa/ldm-unraid/issues</Support>
+  <Project>https://github.com/emaspa/ldm-unraid</Project>
+  <Icon>https://raw.githubusercontent.com/emaspa/ldm-unraid/main/icon.png</Icon>
+  <MinVer>7.0.0</MinVer>
+</Plugin>
