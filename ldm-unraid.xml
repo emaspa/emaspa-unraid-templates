@@ -15,7 +15,7 @@
     Requires Unraid 7.0.0 or later.
   </Description>
   <Category>Tools:System</Category>
-  <Support>https://github.com/emaspa/ldm-unraid/issues</Support>
+  <Support>https://forums.unraid.net/topic/201053-plugin-support-windows-dynamic-disks-ldm-unraid/</Support>
   <Project>https://github.com/emaspa/ldm-unraid</Project>
   <Icon>https://raw.githubusercontent.com/emaspa/ldm-unraid/main/icon.png</Icon>
   <MinVer>7.0.0</MinVer>
